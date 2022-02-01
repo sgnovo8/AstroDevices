@@ -13,6 +13,7 @@ contract AstroHobby{
     string epBrand;
     address ownerAddress;
     uint ownerID;
+    bool dewshield = false;
 
     function addOwner(address _ownerAddress) public{
         ownerAddress = _ownerAddress;
