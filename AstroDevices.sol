@@ -59,6 +59,12 @@ contract AstroHobby{
         return objectiveSize;
     }
 
+    function addTripodType(string memory _tripodType) public{
+        tripodType = _tripodType;
+    }
+    function getTripodType() public view returns(string memory _tripodType){
+        return tripodType;
+    }
 
 }
 
