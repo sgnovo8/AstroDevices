@@ -14,6 +14,11 @@ contract AstroHobby{
     address ownerAddress;
     uint ownerID;
     bool dewshield = false;
+    
+    struct targets{
+        string galaxies;
+        string globs;
+    
 
     function addOwner(address _ownerAddress) public{
         ownerAddress = _ownerAddress;
